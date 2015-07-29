@@ -1,0 +1,303 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+ol, ul, li {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+html {
+  font-size: 100%;
+  line-height: 1.4; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+h1 {
+  font-size: 25px; }
+
+h2 {
+  font-size: 20px; }
+
+a {
+  text-decoration: none; }
+
+body main {
+  width: 100%; }
+
+body {
+  height: auto;
+  background-color: #ccc; }
+
+input.focus, textarea.focus {
+  outline: none; }
+
+.content-homepage {
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  font-family: "文泉驛正黑", "WenQuanYi Zen Hei", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif; }
+  .content-homepage .content-box {
+    background-color: #fff; }
+    .content-homepage .content-box .content-box-pic {
+      position: relative;
+      height: 384px;
+      width: 270px; }
+      .content-homepage .content-box .content-box-pic .blurbox {
+        position: absolute;
+        bottom: 0;
+        background: url("../img/blurbox.png") no-repeat;
+        width: 100%;
+        height: 101px; }
+        .content-homepage .content-box .content-box-pic .blurbox .title {
+          position: absolute;
+          left: 20px;
+          bottom: 8px;
+          color: #fff;
+          font-weight: bold; }
+          .content-homepage .content-box .content-box-pic .blurbox .title .title-zh {
+            font-size: 20px;
+            display: block;
+            margin-bottom: 15px; }
+          .content-homepage .content-box .content-box-pic .blurbox .title .title-en {
+            display: block;
+            font-size: 13px;
+            font-family: "Roboto"; }
+    .content-homepage .content-box .content-box-info {
+      height: 242px;
+      width: 270px;
+      padding: 18px;
+      font-size: 13px; }
+      .content-homepage .content-box .content-box-info .tag-group {
+        display: block;
+        width: 100%;
+        font-size: 12px; }
+        .content-homepage .content-box .content-box-info .tag-group .tag {
+          display: inline-block;
+          padding: 6px 7px;
+          height: 25px;
+          line-height: 15px;
+          text-align: center; }
+          .content-homepage .content-box .content-box-info .tag-group .tag.theater {
+            width: 68px;
+            color: #fff;
+            background-color: #45BCC2; }
+          .content-homepage .content-box .content-box-info .tag-group .tag.category {
+            margin-left: 15px;
+            width: 70px;
+            color: #C2A045;
+            border: 1px solid #C2A045; }
+          .content-homepage .content-box .content-box-info .tag-group .tag.animation {
+            margin-left: 15px;
+            width: 40px;
+            color: #C2A045;
+            border: 1px solid #C2A045; }
+      .content-homepage .content-box .content-box-info .release {
+        margin-top: 20px;
+        font-size: 12px; }
+        .content-homepage .content-box .content-box-info .release .icon-clock-icon {
+          margin-right: 14px; }
+      .content-homepage .content-box .content-box-info .content-box-title {
+        font-weight: bold; }
+      .content-homepage .content-box .content-box-info .imdb_rating {
+        margin-top: 13px; }
+        .content-homepage .content-box .content-box-info .imdb_rating .content-box-title {
+          font-weight: bold; }
+        .content-homepage .content-box .content-box-info .imdb_rating .icon-Star {
+          margin: 7px;
+          color: #C2A045; }
+        .content-homepage .content-box .content-box-info .imdb_rating .score {
+          color: #C2A045; }
+      .content-homepage .content-box .content-box-info .maintext {
+        margin-top: 13px;
+        display: block; }
+        .content-homepage .content-box .content-box-info .maintext .maintext-par {
+          margin-top: 6px;
+          line-height: 30px; }
+          .content-homepage .content-box .content-box-info .maintext .maintext-par a {
+            position: absolute;
+            right: 30px; }
+
+.content-intheater {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  font-family: "文泉驛正黑", "WenQuanYi Zen Hei", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif; }
+  .content-intheater .content-box {
+    background-color: #fff; }
+    .content-intheater .content-box .content-box-pic {
+      position: relative;
+      height: 384px;
+      width: 270px; }
+      .content-intheater .content-box .content-box-pic .blurbox {
+        position: absolute;
+        bottom: 0;
+        background: url("../img/blurbox.png") no-repeat;
+        width: 100%;
+        height: 101px; }
+        .content-intheater .content-box .content-box-pic .blurbox .title {
+          position: absolute;
+          left: 20px;
+          bottom: 8px;
+          color: #fff;
+          font-weight: bold; }
+          .content-intheater .content-box .content-box-pic .blurbox .title .title-zh {
+            font-size: 20px;
+            display: block;
+            margin-bottom: 15px; }
+          .content-intheater .content-box .content-box-pic .blurbox .title .title-en {
+            display: block;
+            font-size: 13px;
+            font-family: "Roboto"; }
+    .content-intheater .content-box .content-box-info {
+      height: 85px;
+      width: 270px;
+      padding: 18px;
+      font-size: 13px; }
+      .content-intheater .content-box .content-box-info .release {
+        font-size: 12px; }
+        .content-intheater .content-box .content-box-info .release .icon-clock-icon {
+          margin-right: 14px; }
+      .content-intheater .content-box .content-box-info .imdb_rating {
+        margin-top: 13px; }
+        .content-intheater .content-box .content-box-info .imdb_rating .content-box-title {
+          font-weight: bold; }
+        .content-intheater .content-box .content-box-info .imdb_rating .icon-Star {
+          margin: 7px;
+          color: #C2A045; }
+        .content-intheater .content-box .content-box-info .imdb_rating .score {
+          color: #C2A045; }
+
+.content-coming {
+  position: absolute;
+  top: 50px;
+  left: 800px;
+  font-family: "文泉驛正黑", "WenQuanYi Zen Hei", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif; }
+  .content-coming .content-box {
+    background-color: #fff;
+    height: 300px;
+    width: 586px; }
+    .content-coming .content-box .content-box-pic {
+      display: inline-block;
+      height: 300px;
+      width: 225px; }
+    .content-coming .content-box .content-box-info {
+      display: inline-block;
+      vertical-align: top;
+      height: 300px;
+      padding: 30px;
+      font-size: 13px; }
+      .content-coming .content-box .content-box-info .title {
+        font-weight: bold; }
+        .content-coming .content-box .content-box-info .title .title-zh {
+          font-size: 20px;
+          display: block;
+          margin-bottom: 14px; }
+        .content-coming .content-box .content-box-info .title .title-en {
+          display: block;
+          font-size: 13px;
+          font-family: "Roboto"; }
+      .content-coming .content-box .content-box-info .release {
+        margin-top: 20px; }
+        .content-coming .content-box .content-box-info .release .icon-clock-icon {
+          margin-right: 14px; }
+      .content-coming .content-box .content-box-info .tag-group {
+        display: block;
+        width: 100%;
+        font-size: 12px;
+        margin-top: 15px; }
+        .content-coming .content-box .content-box-info .tag-group .tag {
+          display: inline-block;
+          padding: 6px 7px;
+          height: 25px;
+          line-height: 15px;
+          text-align: center; }
+          .content-coming .content-box .content-box-info .tag-group .tag.theater {
+            width: 68px;
+            color: #fff;
+            background-color: #45BCC2; }
+          .content-coming .content-box .content-box-info .tag-group .tag.category {
+            margin-left: 15px;
+            width: 70px;
+            color: #C2A045;
+            border: 1px solid #C2A045; }
+          .content-coming .content-box .content-box-info .tag-group .tag.animation {
+            margin-left: 15px;
+            width: 40px;
+            color: #C2A045;
+            border: 1px solid #C2A045; }
+      .content-coming .content-box .content-box-info .imdb_rating {
+        margin-top: 15px; }
+        .content-coming .content-box .content-box-info .imdb_rating .content-box-title {
+          font-weight: bold; }
+        .content-coming .content-box .content-box-info .imdb_rating .icon-Star {
+          margin: 7px;
+          color: #C2A045; }
+        .content-coming .content-box .content-box-info .imdb_rating .score {
+          color: #C2A045; }
+      .content-coming .content-box .content-box-info .maintext {
+        margin-top: 15px;
+        display: block;
+        font-weight: bold; }
+      .content-coming .content-box .content-box-info .lower_button {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        line-height: 35px;
+        font-size: 14px;
+        font-weight: bold; }
+        .content-coming .content-box .content-box-info .lower_button .left, .content-coming .content-box .content-box-info .lower_button .right {
+          display: inline-block;
+          width: 180px;
+          border-color: rgba(230, 230, 230, 0.8);
+          border-style: solid;
+          border-width: 1px 1px 0 0; }
+          .content-coming .content-box .content-box-info .lower_button .left:hover, .content-coming .content-box .content-box-info .lower_button .right:hover {
+            color: #fff;
+            background-color: #C2A045; }
+        .content-coming .content-box .content-box-info .lower_button .right {
+          border-right: 0; }
